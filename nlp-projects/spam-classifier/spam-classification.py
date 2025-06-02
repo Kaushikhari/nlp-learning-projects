@@ -9,7 +9,7 @@ from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-nlp = spacy.load('en_core_web_sm-3.8.0-py3-none-any.whl')
+nlp = spacy.load('en_core_web_sm')
 df = pd.read_csv('spam.csv')
 
 

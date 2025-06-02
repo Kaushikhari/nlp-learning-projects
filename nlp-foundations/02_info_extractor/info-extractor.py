@@ -1,5 +1,4 @@
 import spacy
-import regex
 nlp = spacy.load('en_core_web_sm')
 text = '''Invoice Total: $1,200.00  
 Please contact finance@example.com for queries.  

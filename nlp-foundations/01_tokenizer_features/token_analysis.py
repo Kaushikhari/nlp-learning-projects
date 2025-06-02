@@ -10,4 +10,3 @@ for token in doc:
           'is punctuated: ', token.is_punct,
           'is number: ', token.like_num,
           'is currency: ', token.is_currency)
-    
